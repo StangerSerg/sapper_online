@@ -56,12 +56,6 @@ class GamePole:
             print(*row)
 
 
-    #def play(self):
-        #while all ()
-            #self.show()
-            #x, y = tuple(map(int, input("введите координаты клетки через пробел:").split()))
-            #self.pole[x+1][y+1].fl_open = True
-
 new_field = GamePole(10, 12)
 
 new_field.show()
