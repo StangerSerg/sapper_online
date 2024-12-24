@@ -13,10 +13,10 @@ class GamePole:
         self.field_size = field_size
         self.mines_count = mines_count
         self.pole = [[Cell(0, False) for i in range(field_size)] for j in range(field_size)]
-        self.init()
+        self.create()
 
 
-    def init(self):
+    def create(self):
         '''
         Функция заполнения полей минами и числами, обозначающими
         количество мин вокруг поля.
